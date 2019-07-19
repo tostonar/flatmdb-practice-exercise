@@ -54,8 +54,9 @@ We've provided you with a console that you can use to test your code as well as 
   - returns an **integer** that is the year the movie was released
 - `Movie#box_office`
   - returns a **integer** that is the amount of money the movie made at the box office
-- `Movie#same_decade`
-  - return an **array** of movies from the same decade as this movie instance
+- `Movie#within_five_years`
+  - return an **array** of movies that have a release year that is either five years later or five years less than the movie instance calling this method's release year
+  - Example: I am movie 1 and I was released in 2000. If you have a release year of 1995-2005, you should be included, but don't include the movie calling it!
 - `Movie.all`
   - returns an **array** of all the movies
 - `Movie.blockbusters`
