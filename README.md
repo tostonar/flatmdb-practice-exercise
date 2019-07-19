@@ -61,7 +61,7 @@ We've provided you with a console that you can use to test your code as well as 
 - `Movie.blockbusters`
   - return an **array** of all movies that made over $50 mil
 - `Movie.box_office_total_by_year`
-  - return an **integer** representing the sum of all the movies' box office earnings in a given year
+  - Given a year, return an **integer** representing the sum of all the movies' box office earnings in a given year
 
 ---
 
@@ -107,5 +107,3 @@ We've provided you with a console that you can use to test your code as well as 
   - given an **actor instance**, character_name, and earnings, create a new role for them in this film
 - `Movie#stars_by_rank`
   - return a list of actors in this movie sorted by their rank
-
----
