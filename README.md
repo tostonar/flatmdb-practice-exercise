@@ -26,21 +26,21 @@ We've provided you with a console that you can use to test your code as well as 
 
 #### Build the following methods on the `Actor` class
 
-- `Actor#name`
+<!-- - `Actor#name` -->
   - returns a **string** that is the actor's name
   - Once a actor is created, their name cannot be changed.
-- `Actor#age`
+<!-- - `Actor#age` -->
   - returns an **integer** for the actor's age
-- `Actor#rank`
+<!-- - `Actor#rank` -->
   - returns a **string** representing the actor's rank
   - valid ranks are: "A", "B", "C", "D", and "E"
-- `Actor.all`
+<!-- - `Actor.all` -->
   - should return **all** of the actor instances
-- `Actor.average_age`
+<!-- - `Actor.average_age` -->
   - should return the average age of **all** actors in the database
-- `Actor.a_list`
+<!-- - `Actor.a_list` -->
   - should return an **array** of all actors with a rank of "A"
-- **BONUS** `Actor#lie_about_age`
+<!-- - **BONUS** `Actor#lie_about_age` -->
   - given an integer of an **age**, change the actor's age AND rank 
   - if the new age is higher than their actual age, their rank should go down; if it's lower, their rank should go up
 
@@ -48,38 +48,38 @@ We've provided you with a console that you can use to test your code as well as 
 
 #### Build the following methods on the Movie class
 
-- `Movie#title`
+<!-- - `Movie#title` -->
   - returns a **string** that is the movie's title
-- `Movie#year`
+<!-- - `Movie#year` -->
   - returns an **integer** that is the year the movie was released
-- `Movie#box_office`
+<!-- - `Movie#box_office` -->
   - returns a **integer** that is the amount of money the movie made at the box office
-- `Movie#within_five_years`
+<!-- - `Movie#within_five_years` -->
   - return an **array** of movies that have a release year that is either five years later or five years less than the movie instance calling this method's release year
   - Example: I am movie 1 and I was released in 2000. If you have a release year of 1995-2005, you should be included, but don't include the movie calling it!
-- `Movie.all`
+<!-- - `Movie.all` -->
   - returns an **array** of all the movies
-- `Movie.blockbusters`
+<!-- - `Movie.blockbusters` -->
   - return an **array** of all movies that made over $50 mil
-- `Movie.box_office_total_by_year`
+<!-- - `Movie.box_office_total_by_year` -->
   - Given a year, return an **integer** representing the sum of all the movies' box office earnings in a given year
 
 ---
 
 #### Build out the following methods on the `Role` class
 
-- `Role#actor`
+<!-- - `Role#actor` -->
   - returns the actor object for that given role
   - Once a role is created, I should not be able to change the actor
-- `Role#movie`
+<!-- - `Role#movie` -->
   - returns the movie object for that given role
   - Once a role is created, I should not be able to change the movie
-- `Role#name`
+<!-- - `Role#name` -->
   - returns a **string** that is the character's name
-- `Role#earnings`
+<!-- - `Role#earnings` -->
   - returns a **number** representing the percentage of the movie's box office earnings that the actor gets paid
   - This should be a float that is not a negative number.
-- `Role.all`
+<!-- - `Role.all` -->
   - returns all of the roles
 
 ---
